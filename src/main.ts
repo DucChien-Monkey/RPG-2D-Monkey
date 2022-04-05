@@ -15,7 +15,7 @@ export default new Phaser.Game({
 			debug: false
 		}
 	},
-	scene: [Preloader, Game],
+	scene: [Preloader, Game], // su dung cac man
 	scale: {
 		zoom: 2
 	}
