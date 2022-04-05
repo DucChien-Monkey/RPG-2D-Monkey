@@ -1,30 +1,35 @@
-# Tilemaps in Phaser 3
+# Dungeon Crawler Starter
+> A starter project for creating a Dungeon Crawler with Phaser 3
 
-A tutorial series on the ways you can build modular game worlds using tilemaps in Phaser 3.
+![License](https://img.shields.io/badge/license-MIT-green)
 
-- Post #1 Static Maps: [link](https://medium.com/@michaelwesthadley/modular-game-worlds-in-phaser-3-tilemaps-1-958fc7e6bbd6)
-- Post #2 Dynamic Platformer: [link](https://medium.com/@michaelwesthadley/modular-game-worlds-in-phaser-3-tilemaps-2-dynamic-platformer-3d68e73d494a)
-- Post #3 Procedural Dungeon: [link](https://medium.com/@michaelwesthadley/modular-game-worlds-in-phaser-3-tilemaps-3-procedural-dungeon-3bc19b841cd)
-- Post #4 Meet Matter: [link](https://medium.com/@michaelwesthadley/modular-game-worlds-in-phaser-3-tilemaps-4-meet-matter-js-abf4dfa65ca1)
-- Post #5 Matter Physics Platformer: [link](https://medium.com/@michaelwesthadley/modular-game-worlds-in-phaser-3-tilemaps-5-matter-physics-platformer-d14d1f614557)
+## Overview
 
-## Running Examples Locally
+This is a Dungeon Crawler game starter project for the Phaser game framework.
 
-Looking to run the examples locally?
-Clone or download the repository. Make sure you have [node](https://nodejs.org/en/) installed. Open a terminal in the repository folder and run:
+[The code corresponds to an 8 part series on YouTube](https://www.youtube.com/playlist?list=PLumYWZ2t7CRtgjbZK0JMoXHjebeYmT85-) demonstrating how it was made.
 
-```
+[Check out the playable demo here](https://ourcade.co/templates/dungeon-crawler-starter).
+
+## Getting Started
+
+Clone this repository with `git-lfs` and run:
+
+```bash
 npm install
+npm run start
 ```
 
-This will install the needed dependencies. Then you can run:
+If you don't have `git-lfs` installed then get it here: https://git-lfs.github.com
 
-```
-npm run serve
-```
+All the image and audio files in this repository is stored with `git-lfs`. Alternatively you can [download a zip from latest release here](https://github.com/ourcade/phaser3-dungeon-crawler-starter/releases/tag/latest).
 
-This will open up a browser with the examples served up.
+## Credits
 
-## License & Attribution
+The tiles and lizard enemy are from [Dungeon Tileset II](https://0x72.itch.io/dungeontileset-ii).
 
-See [licenses.md](./licenses.md) for the licenses & attributions for the various components of this repository - the game assets, the code examples and the blog posts themselves.
+Hero character is from [Legend of Faune](https://ansimuz.itch.io/legend-of-faune).
+
+## License
+
+[MIT License](https://github.com/ourcade/phaser3-dungeon-crawler-starter/blob/master/LICENSE)
